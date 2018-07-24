@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:layout_marginLeft="10dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/movieTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dsad"
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                />
+
+            <LinearLayout
+                android:id="@+id/genreLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                >
+            </LinearLayout>
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Duration: 10 mins"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/releaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Release date: 12/6/2018"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/yellowstar"
+                    />
+                <TextView
+                    android:id="@+id/rating_launch"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8.0/10"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trong tính toán lượng tử, thuật toán lượng tử là một thuật toán chạy bằng mô hình thực tế của tính toán lượng tử, mô hình được sử dụng phổ biến nhất là mô hình tính toán thông qua mạch lượng tử. Một thuật toán cổ điển (không phải lượng tử) là một chuỗi hữu hạn các chỉ thị, hoặc là một quá trình có thứ tự để giải quyết một vấn đề, trong đó mỗi bước hay một chỉ thị có thể được thực hiện trên máy tính cổ điển. Tương tự, thuật toán lượng tử là một quá trình có thứ tự, trong đó mỗi bước có thể được thực hiện trên một máy tính lượng tử. Mặc dù tất các thuật toán cổ điển có thể được thực hiện trên máy tính lượng tử, thuật ngữ thuật toán lượng tử thường được sử dụng cho những thuật toán mà vốn đã liên quan đến lượng tử, hoặc sử dụng một vài thuộc tính cốt lõi của tính toán lượng tử như lại chồng chất lượng tử hay vướng víu lượng tử.
+
+Tất cả các vấn đề có thể giải quyết trên một máy tính lượng tử cũng có thể giải quyết trên máy tính cổ điển. Trong một số trường hợp, nhiều vấn đề không giải quyết được khi sử dụng máy tính cổ điển vẫn không giải được trên máy tính lượng tử. Điều làm cho những thuật toán lượng tử trở lên thú vị là chúng có thể giải quyết một vài vấn đề nhanh hơn các thuật toán cổ điển.
+
+Thuật toán nổi tiếng nhất là thuật toán Shor về sự phân tích thành các thừa số, và thuật toán Grover về việc tìm kiếm trên một bộ dữ liệu không có cấu trúc hoặc một danh sách không có thứ tự. Thuật toán của Shor chạy với độ phức tạp logarit, nhanh hơn thuật toán cổ điển nổi tiếng nhất về sự phân tích thành các thừa số - sàng lọc tổng quát số học. Thuật toán của Grover chạy với độ phức tạp theo hàm căn bậc hai, nhanh hơn thuật toán cổ điển tốt nhất với cùng một vấn đề."
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
