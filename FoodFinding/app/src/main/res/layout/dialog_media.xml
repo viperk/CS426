@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <ImageView
+            android:id="@+id/phoniconDialog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/phoneicon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make a call"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <ImageView
+            android:id="@+id/smsiconDialog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/smsicon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send message"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

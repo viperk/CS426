@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "610676302818",
+    "firebase_url": "https://miniproject-640ab.firebaseio.com",
+    "project_id": "miniproject-640ab",
+    "storage_bucket": "miniproject-640ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610676302818:android:017bbf36fa34191d",
+        "android_client_info": {
+          "package_name": "com.example.ptquy.foodfinding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610676302818-6vkaua1vih1961t459ah6tped2vtrrr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ptquy.foodfinding",
+            "certificate_hash": "fcc8896816c5f14d3ef52559963649d30beb99a6"
+          }
+        },
+        {
+          "client_id": "610676302818-74fhtou119tg7kks9qtgu1k36opntbq7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "610676302818-74fhtou119tg7kks9qtgu1k36opntbq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8wO2cdaTXXMmxYPC1BegR298y2O9XkuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610676302818-74fhtou119tg7kks9qtgu1k36opntbq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

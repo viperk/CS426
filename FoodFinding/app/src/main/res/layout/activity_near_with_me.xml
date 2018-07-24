@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".NearWithMeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search in range: "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            />
+
+        <Button
+            android:id="@+id/twokm"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="2km"
+            android:textSize="10dp"
+            android:onClick="rangeButtonClicked"
+            />
+
+        <Button
+            android:id="@+id/fourkm"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="4km"
+            android:textSize="10dp"
+            android:onClick="rangeButtonClicked"
+            />
+
+        <Button
+            android:id="@+id/sixkm"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="6km"
+            android:textSize="10dp"
+            android:onClick="rangeButtonClicked"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/restaurant"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="restaurant"
+            android:onClick="typeButtonClicked"
+            />
+
+        <Button
+            android:id="@+id/movie_theater"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cinema"
+            android:onClick="typeButtonClicked"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@android:color/darker_gray"></LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/AllFood_recyler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@android:color/holo_red_light">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

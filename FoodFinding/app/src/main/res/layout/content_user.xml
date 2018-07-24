@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UserActivity"
+    tools:showIn="@layout/app_bar_user"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            >
+
+            <ImageButton
+                android:id="@+id/NewHotFoodButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/image1"
+                android:alpha="0.5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="New-Hot food"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            >
+
+            <ImageButton
+                android:id="@+id/NearWithYouButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/image2"
+                android:alpha="0.5"
+                android:onClick="buttonMainMenuClicked"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Near with you"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            >
+
+           <ImageButton
+               android:id="@+id/AllFoodList"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="@drawable/image3"
+               android:alpha="0.5"
+               android:onClick="buttonMainMenuClicked"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="All food list"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            >
+
+            <ImageButton
+                android:id="@+id/ComingSoon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/image4"
+                android:alpha="0.5"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="All food list"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
